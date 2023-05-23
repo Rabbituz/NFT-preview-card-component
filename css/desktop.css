@@ -1,0 +1,14 @@
+body .card-container {
+    width: 350px;
+    height: 596px;
+}
+body .card-container picture {
+    width: 302px;
+    height: 302px;
+}
+body .card-container .creater p{
+    font-size: calc(16rem / 16);
+}
+body .card-container .creater p span {
+    font-size: calc(16rem / 15);
+}
