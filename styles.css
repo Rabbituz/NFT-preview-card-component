@@ -41,12 +41,20 @@ body .card-container {
 body .card-container picture {
     width: 278px;
     height: 278px;
-    position: relative;
+    border-radius: 8px;
 }
 body .card-container picture img {
     max-width: 100%;
     border-radius: 8px;
-    position: relative;
+}
+body .card-container picture:hover {
+    background-color: var(--Cyan);
+    background-image: url(./assets/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+body .card-container picture img:hover {
+    opacity: 50%;
 }
 body .card-container h1 {
     font-size: calc(22rem / 16);
@@ -120,11 +128,6 @@ body .card-container .creator p span {
     color: var(--White);
     font-weight: 400;
     font-style: normal;
-}
-body .card-container picture:active {
-    z-index: 1;
-    background-color: var(--Cyan);
-    background-image: url(./assets/icon-view.svg);
 }
 body .card-container h1:hover {
     color: var(--Cyan);
